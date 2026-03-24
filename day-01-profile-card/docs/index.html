@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Profile Card</title>
 </head>
 <body>
      <main class="min-h-screen flex items-center justify-center bg-gray-100">
-        <article class="bg-white rounded-lg shadow-lg p-8 max-w-sm w-full">
+        <article class="bg-white rounded-lg shadow-lg p-8 max-w-sm w-full transition duration-300 hover:shadow-2xl hover:-translate-y-1">
             <figure class="flex justify-center mb-4">
                 <div class=" rounded-full p-1 bg-linear-to-r from-blue-200 to-blue-800  ">
                     <img src="./images/2019_11_10_11_46_IMG_2635.JPG" alt="profile picture" class="w-32 h-32 rounded-full object-cover border-4 border-white">
@@ -17,14 +18,24 @@
             <section class="text-center mb-6">
                 <h1 class="text-xl font-bold text-gray-800">Karam Adel Karam</h1>
                 <h2 class="text-sm font-semibold text-blue-500 mb-2">Software Engineer</h2>
-                <p class="text-gray-500 text-sm leading-relaxed">Morethan 3 years experience in software field </p>
+                <p class="text-gray-500 text-sm leading-relaxed">Frontend Developer passionate about building clean and modern web experiences. </p>
             </section>
+            <hr class="border-gray-200 my-6">
             <section class="text-center ">
-                <h3 class="text-gray-700 font-bold mb-3">contact me</h3>
-                <nav class="flex justify-center gap-4">
-                    <a  class="social-link" href="https://github.com/karamadel8/" target="_blank" rel="noopener noreferrer">github</a>
-                    <a class="social-link" href="https://x.com/karamadel2" target="_blank" rel="noopener noreferrer">X</a>
-                    <a  class="social-link" href="https://www.facebook.com/karam.adel.750"  target="_blank"rel="noopener noreferrer">facebook</a>
+                <h3 class="text-gray-400 text-xs font-bold mb-4 uppercase tracking-widest ">Find Me On</h3>
+                <nav class="flex justify-center gap-2">
+                    <a  class="social-link " href="https://github.com/karamadel8/" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-github fa-sm translate-y-px" aria-hidden="true" ></i>
+                       <span>GitHub</span>
+                    </a>
+                    <a class="social-link " href="https://x.com/karamadel2" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-x-twitter fa-sm " aria-hidden="true"></i>
+                        
+                    </a>
+                    <a  class="social-link" href="https://www.facebook.com/karam.adel.750"  target="_blank"rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook fa-sm translate-y-px" aria-hidden="true"></i>
+                        facebook
+                    </a>
                 </nav>
 
             </section>
