@@ -1,0 +1,11 @@
+@import "tailwindcss" ;
+@theme {
+    --color-primary: #1E40AF;
+
+}
+@layer components {
+    .social-link {
+        @apply inline-flex items-center-safe gap-1   justify-center bg-linear-to-r from-blue-300 to-blue-700 text-white text-sm px-4 py-2  rounded-full hover:opacity-80 transition duration-300 cursor-pointer ;
+    }
+}
+
