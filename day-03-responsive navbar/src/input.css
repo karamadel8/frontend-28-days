@@ -1,1 +1,20 @@
 @import "tailwindcss" ;
+@layer components {
+    .nav-link {
+        @apply px-4 hover:bg-gray-300 hover:text-blue-800 rounded-2xl transition-colors duration-100;
+    }
+    .mobile-link {
+        @apply hover:bg-blue-800 hover:text-gray-100 transition duration-150 border-b-2 border-blue-800 p-3
+    }
+    .clicked {
+        @apply text-blue-800 bg-gray-300
+    }
+   
+    .mobile-menu-open {
+        @apply max-h-96 opacity-100 ;
+    }
+    .mobile-menu-close {
+        @apply max-h-0 opacity-0 ;
+    }
+}
+

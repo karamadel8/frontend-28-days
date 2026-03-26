@@ -7,56 +7,56 @@
     <link rel="stylesheet" href="./style.css">
     <title>Responsive Navbar</title>
 </head>
-<body>
-    <div class="container">
-        <header>
-          <nav>
+<body class="min-h-screen bg-gray-100  ">
+    <div class="container mx-auto">
+        <header class="bg-blue-800  text-gray-300 py-4" >
+          <nav class="flex justify-between items-center text-xl font-bold p-6 ">
             <a>NavBrand</a>
-            <button id="burger">
+            <button id="burger" class="cursor-pointer md:hidden">
                     <i class="fa-solid fa-bars"></i>
             </button>
-            <ul class="links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#services">Services</a></li>
-                <li><a href="/#contact">Contact</a></li>
+            <ul class="hidden md:flex justify-between text-l font-semibold ">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#services">Services</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
-          <ul id="mobile-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/#contact">Contact</a></li>
+          <ul id="mobile-menu" class="overflow-hidden py-2  text-l font-semibold  bg-blue-900  md:hidden transition-all duration-500">
+            <li class="mobile-link"><a href="#">Home</a></li>
+            <li class="mobile-link"><a href="#about">About</a></li>
+            <li class="mobile-link"><a href="#services">Services</a></li>
+            <li class="mobile-link"><a href="#contact">Contact</a></li>
           </ul>
           
 
         </header>
         <main>
-            <section>
-                <h1>Build Something Great</h1>
-                <p>A clean responsive navbar with hamburger menu</p>
-                <button>Get started</button>
+            <section class="text-center bg-blue-800 p-8 leading-relaxed">
+                <h1 class="font-bold text-2xl text-gray-100">Build Something Great</h1>
+                <p class="text-gray-300 tracking-wide text-sm">A clean responsive navbar with hamburger menu</p>
+                <button class="bg-gray-100 text-blue-900 px-3 py-0.5 my-4 rounded-full text-sm font-semibold tracking-wide">Get started</button>
             </section>
-            <section>
-                <article>
-                    <h3>fast</h3>
-                    <p>Optimized for performance</p>
+            <section class="grid grid-cols-2 bg-gray-200 p-4  ">
+                <article class="bg-gray-100 p-8 m-2 rounded-2xl shadow-2xl tracking-wide leading-relaxed ">
+                    <h3 class="text-2xl font-semibold mb-2" >fast</h3>
+                    <p class="text-sm text-gray-500">Optimized for performance</p>
                 </article>
-                <article>
-                    <h3>Responsive</h3>
-                    <p>Works on all devices</p>
+                <article class="bg-gray-100 p-8 m-2 rounded-2xl shadow-2xl tracking-wide leading-relaxed">
+                    <h3 class="text-2xl font-semibold mb-2">Responsive</h3>
+                    <p class="text-sm text-gray-500">Works on all devices</p>
                 </article>
-                <article>
-                    <h3>Clean</h3>
-                    <p>Minimal and modern design</p>
+                <article class="bg-gray-100 p-8 m-2 rounded-2xl shadow-2xl tracking-wide leading-relaxed">
+                    <h3 class="text-2xl font-semibold mb-2">Clean</h3>
+                    <p class="text-sm text-gray-500">Minimal and modern design</p>
                 </article>
-                <article>
-                    <h3>Simple</h3>
-                    <p>Easy to use and customize</p>
+                <article class="bg-gray-100 p-8 m-2 rounded-2xl shadow-2xl tracking-wide leading-relaxed">
+                    <h3 class="text-2xl font-semibold mb-2">Simple</h3>
+                    <p class="text-sm text-gray-500">Easy to use and customize</p>
                 </article>
             </section>
         </main>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
