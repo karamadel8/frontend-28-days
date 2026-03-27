@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h1>Calculate your Tip</h1>
+            <section>
+                <div>
+                    <p>Bill Amount ($)</p>
+                    <input id="bill" type="number" placeholder="Enter Bill amount">
+                </div>
+                <div>
+                    <p>Number of People</p>
+                    <input id="people" type="number" placeholder="Enter No. of people">
+                </div>
+            </section>
+            <section>
+                <h2>Select Tip % </h2>
+                <article>
+                    <div>
+                        <button class="tip-btn" data-tip="5">5%</button>                 
+                        <button class="tip-btn" data-tip="10">10%</button>                 
+                        <button class="tip-btn" data-tip="15">15%</button>                 
+                        <button class="tip-btn" data-tip="20">20%</button>                 
+                        <button class="tip-btn" data-tip="25">25%</button>                 
+                        <button class="tip-btn" data-tip="custom">custom</button>                 
+                    </div>
+                    <div>
+                        <input id="customTip" type="number" placeholder="Enter custom Tip">
+                    </div>
+                    
+                </article>
+            </section>
+            <section>
+                <div>
+                    <h3>Tip Amount / Person</h3>
+                    <span id="tip-per-person">0$</span>
+                </div>
+                <div>
+                    <h3>Total / Person</h3>
+                    <span id="total-per-person">0$</span>
+                </div>
+                <div>
+                    <h3>Total Bill</h3>
+                    <span id="total-bill">0$</span>
+                </div>
+                <div>
+                    <button id="calculate">Calculate</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
