@@ -1,1 +1,13 @@
 @import "tailwindcss" ;
+@layer components {
+    .tip-btn {
+        @apply bg-gray-100 text-gray-800 p-2 rounded-lg m-2 border-2 border-gray-100 cursor-pointer
+    }
+    .clicked {
+        @apply bg-blue-800 text-white
+
+    }
+    .hidecustom {
+        @apply max-h-0 opacity-0
+    }
+}
