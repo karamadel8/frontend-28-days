@@ -1,1 +1,9 @@
 @import "tailwindcss" ;
+@layer components {
+    .btn {
+        @apply px-8  border-2 border-gray-400 rounded-lg text-gray-400 bg-white cursor-pointer
+    }
+    .active {
+    @apply bg-blue-800 text-white border-blue-800;
+}
+}

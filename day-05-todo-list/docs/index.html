@@ -6,29 +6,29 @@
     <link rel="stylesheet" href="./style.css">
     <title>todo list</title>
 </head>
-<body>
-    <div class="container">
+<body class=" flex justify-center items-center min-h-screen ">
+    <div class="max-w-sm w-full bg-gray-100 p-6 rounded-2xl ">
         <main>
-            <header>
-                <h1>My Todo List</h1>
-                <p id="task-count">0 tasks remainig</p>
+            <header class="bg-blue-800 p-6 rounded-2xl mb-2">
+                <h1 class="text-white font-semibold text-2xl  ">My Todo List</h1>
+                <p id="task-count" class="text-sm text-gray-300">0 tasks remainig</p>
             </header>
-            <section>
-                <input id="todo-input" type="text" placeholder="Add a new Task...">
-                <button id="add-btn">+ Add</button>
+            <section class="flex items-center justify-between mb-3">
+                <input id="todo-input" type="text" placeholder="Add a new Task..." class="p-2 border-2 border-gray-400 text-gray-600 text-xl rounded-xl flex-1 mr-2">
+                <button id="add-btn" class="border-2 text-gray-600 border-gray-700 font-semibold rounded-xl p-2 text-xl cursor-pointer">+Add</button>
             </section>
-            <section>
-                <button class="btn" data-filter="All">All</button>
-                <button class="btn" data-filter="Active">Active</button>
-                <button class="btn" data-filter="Done">Done</button>
+            <section class="flex items-center justify-between mb-3">
+                <button class="btn" data-filter="all">All</button>
+                <button class="btn" data-filter="active">Active</button>
+                <button class="btn" data-filter="done">Done</button>
             </section>
             <ul id="todo-list">
 
             </ul>
         </main>
-        <footer>
-            <p id="task-left">0 tasks left</p>
-            <button id="clear-completed">clear completed</button>
+        <footer class="flex items-center justify-between">
+            <p id="task-left" class="text-sm text-gray-500">0 tasks left</p>
+            <button id="clear-completed" class="border-2 text-gray-600 border-gray-700 font-semibold rounded-xl p-2 text-xl cursor-pointer">clear completed</button>
         </footer>
     </div>
     
