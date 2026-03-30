@@ -6,4 +6,13 @@
     .active {
     @apply bg-blue-800 text-white border-blue-800;
 }
+.todo-item {
+    @apply p-4 border-2 border-gray-300 bg-white text-gray-700 mb-2 rounded-2xl flex items-center justify-between
+}
+.todo-text {
+    @apply p-2 ml-1 text-2xl font-semibold text-gray-700
+}
+.done .todo-text {
+    @apply line-through text-gray-400 decoration-2 decoration-gray-500
+}
 }
