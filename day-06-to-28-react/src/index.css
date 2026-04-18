@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.btn {
+    @apply  py-5 w-16  font-semibold border-2 rounded-xl  border-gray-400 cursor-pointer hover:bg-amber-100
+}

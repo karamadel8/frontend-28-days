@@ -1,0 +1,16 @@
+import { Link } from "react-router-dom";
+function Home() {
+  return (
+    <div className="min-h-screen bg-gray-100 p-8">
+      <h1 className="text-3xl font-bold text-blue-800 mb-6">
+        Frontend 28 Days Challenge
+      </h1>
+      <p className="text-gray-500">Days 06-28 built with React + Tailwind</p>
+      <Link to="/Day06" className="text-blue-500 hover:underline">
+        Go to Day 06
+      </Link>
+    </div>
+  );
+}
+
+export default Home;
