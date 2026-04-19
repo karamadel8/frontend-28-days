@@ -6,9 +6,16 @@ function Home() {
         Frontend 28 Days Challenge
       </h1>
       <p className="text-gray-500">Days 06-28 built with React + Tailwind</p>
-      <Link to="/Day06" className="text-blue-500 hover:underline">
-        Go to Day 06
-      </Link>
+      <div>
+        <Link to="/Day06" className="text-blue-500 hover:underline">
+          Go to Day 06
+        </Link>
+      </div>
+      <div>
+        <Link to="/Day07" className="text-blue-500 hover:underline">
+          Go to Day 07
+        </Link>
+      </div>
     </div>
   );
 }
