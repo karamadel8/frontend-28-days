@@ -15,10 +15,15 @@ function Home() {
         <Link to="/Day07" className="text-blue-500 hover:underline">
           Go to Day 07
         </Link>
-       </div>
+      </div>
       <div>
-         <Link to="/Day08" className="text-blue-500 hover:underline">
+        <Link to="/Day08" className="text-blue-500 hover:underline">
           Go to Day 08
+        </Link>
+      </div>
+      <div>
+        <Link to="/Day09" className="text-blue-500 hover:underline">
+          Go to Day 09
         </Link>
       </div>
     </div>
