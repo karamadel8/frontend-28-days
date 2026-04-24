@@ -4,15 +4,19 @@ import Day06 from "./pages/Day06";
 import Day07 from "./pages/Day07";
 import Day08 from "./pages/Day08";
 import Day09 from "./pages/Day09";
+import Day10 from "./pages/Day10/Index";
+import Recipedetails from "./pages/Day10/Recipedetails";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Day06" element={<Day06 />} />
-      <Route path="/Day07" element={<Day07 />} />
-      <Route path="/Day08" element={<Day08 />} />
-      <Route path="/Day09" element={<Day09 />} />
+      <Route path="/day-06" element={<Day06 />} />
+      <Route path="/day-07" element={<Day07 />} />
+      <Route path="/day-08" element={<Day08 />} />
+      <Route path="/day-09" element={<Day09 />} />
+      <Route path="/day-10" element={<Day10 />} />
+      <Route path="/day-10/:id" element={<Recipedetails />} />
     </Routes>
   );
 }

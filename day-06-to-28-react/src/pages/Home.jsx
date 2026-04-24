@@ -7,23 +7,28 @@ function Home() {
       </h1>
       <p className="text-gray-500">Days 06-28 built with React + Tailwind</p>
       <div>
-        <Link to="/Day06" className="text-blue-500 hover:underline">
+        <Link to="/day-06" className="text-blue-500 hover:underline">
           Go to Day 06
         </Link>
       </div>
       <div>
-        <Link to="/Day07" className="text-blue-500 hover:underline">
+        <Link to="/day-07" className="text-blue-500 hover:underline">
           Go to Day 07
         </Link>
       </div>
       <div>
-        <Link to="/Day08" className="text-blue-500 hover:underline">
+        <Link to="/day-08" className="text-blue-500 hover:underline">
           Go to Day 08
         </Link>
       </div>
       <div>
-        <Link to="/Day09" className="text-blue-500 hover:underline">
+        <Link to="/day-09" className="text-blue-500 hover:underline">
           Go to Day 09
+        </Link>
+      </div>
+      <div>
+        <Link to="/day-10" className="text-blue-500 hover:underline">
+          Go to Day 10
         </Link>
       </div>
     </div>
