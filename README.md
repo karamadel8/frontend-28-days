@@ -19,6 +19,9 @@ Built as a single React application with React Router.
 - Day 06 - Counter App
 - Day 07 - GitHub Finder
 - Day 08 - Weather App
+- Day 09 - Password Generator
+- Day 10 - Recipe Finder
+- Day 11 - Quiz App
 
 ## Built With
 
