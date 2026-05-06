@@ -36,6 +36,11 @@ function Home() {
           Go to Day 11
         </Link>
       </div>
+      <div>
+        <Link to="/day-12" className="text-blue-500 hover:underline">
+          Go to Day 12
+        </Link>
+      </div>
     </div>
   );
 }

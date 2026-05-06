@@ -7,6 +7,7 @@ import Day09 from "./pages/Day09";
 import Day10 from "./pages/Day10/Index";
 import Recipedetails from "./pages/Day10/Recipedetails";
 import Day11 from "./pages/Day11";
+import Day12 from "./pages/Day12";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/day-10" element={<Day10 />} />
       <Route path="/day-10/:id" element={<Recipedetails />} />
       <Route path="/day-11" element={<Day11 />} />
+      <Route path="/day-12" element={<Day12 />} />
     </Routes>
   );
 }

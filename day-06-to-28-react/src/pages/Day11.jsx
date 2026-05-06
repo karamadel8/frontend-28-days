@@ -55,7 +55,7 @@ const Day11 = () => {
       ...currentQuestion.incorrect_answers,
       currentQuestion.correct_answer,
     ].sort(() => Math.random() - 0.5);
-  }, [index]);
+  }, [currentQuestion]);
 
   const handleanswer = (answer) => {
     if (selectedAnswer) return;
@@ -81,7 +81,7 @@ const Day11 = () => {
           <p className="text-4xl text-blue-800 font-bold">
             {score}/{quest.length}
           </p>
-          <p className="text-sm text-gray-600 mt-2">{`Great job! You scored  ${Math.round(order)} %`}</p>
+          <p className="text-sm text-gray-600 mt-2">{`Great job! You scored  ${Math.round(score * 10)} %`}</p>
           <div className="grid grid-cols-2 gap-2 mt-4 mb-4">
             <div className="text-center bg-gray-100 border border-gray-100 rounded-xl p-4 ">
               <span className="text-green-600">{score}</span>
@@ -135,7 +135,7 @@ const Day11 = () => {
             ></div>
           </div>
           <div className="text-gray-200 text-xs font-semibold mt-2">
-            Question {index + 1} of 10{" "}
+            Question {index + 1} of 10
           </div>
         </div>
         {loading && (
