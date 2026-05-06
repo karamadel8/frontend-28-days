@@ -40,6 +40,8 @@ function Home() {
         <Link to="/day-12" className="text-blue-500 hover:underline">
           Go to Day 12
         </Link>
+      </div>
+      <div>
         <Link to="/day-13" className="text-blue-500 hover:underline">
           Go to Day 13
         </Link>

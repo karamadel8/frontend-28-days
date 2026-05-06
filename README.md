@@ -22,6 +22,8 @@ Built as a single React application with React Router.
 - Day 09 - Password Generator
 - Day 10 - Recipe Finder
 - Day 11 - Quiz App
+- Day 12 - Budget Tracker
+- Day 13 - Markdown Previewer
 
 ## Built With
 
