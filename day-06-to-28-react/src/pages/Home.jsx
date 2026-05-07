@@ -8,42 +8,42 @@ function Home() {
       <p className="text-gray-500">Days 06-28 built with React + Tailwind</p>
       <div>
         <Link to="/day-06" className="text-blue-500 hover:underline">
-          Go to Day 06
+          Day 06 - Counter App
         </Link>
       </div>
       <div>
         <Link to="/day-07" className="text-blue-500 hover:underline">
-          Go to Day 07
+          Day 07 - GitHub Finder
         </Link>
       </div>
       <div>
         <Link to="/day-08" className="text-blue-500 hover:underline">
-          Go to Day 08
+          Day 08 - Weather App
         </Link>
       </div>
       <div>
         <Link to="/day-09" className="text-blue-500 hover:underline">
-          Go to Day 09
+          Day 09 - Password Generator
         </Link>
       </div>
       <div>
         <Link to="/day-10" className="text-blue-500 hover:underline">
-          Go to Day 10
+          Day 10 - Recipe Finder
         </Link>
       </div>
       <div>
         <Link to="/day-11" className="text-blue-500 hover:underline">
-          Go to Day 11
+          Day 11 - Quiz App
         </Link>
       </div>
       <div>
         <Link to="/day-12" className="text-blue-500 hover:underline">
-          Go to Day 12
+          Day 12 - Budget Tracker
         </Link>
       </div>
       <div>
         <Link to="/day-13" className="text-blue-500 hover:underline">
-          Go to Day 13
+          Day 13 - Markdown Previewer
         </Link>
       </div>
     </div>
