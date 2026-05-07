@@ -46,6 +46,11 @@ function Home() {
           Day 13 - Markdown Previewer
         </Link>
       </div>
+      <div>
+        <Link to="/day-14" className="text-blue-500 hover:underline">
+          Day 14 - test
+        </Link>
+      </div>
     </div>
   );
 }
