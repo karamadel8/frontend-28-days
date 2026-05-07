@@ -43,7 +43,7 @@ function Home() {
       </div>
       <div>
         <Link to="/day-13" className="text-blue-500 hover:underline">
-          Day 13 -  Markdown Previewer
+          Day 13 - Markdown Previewer
         </Link>
       </div>
     </div>
