@@ -48,7 +48,7 @@ function Home() {
       </div>
       <div>
         <Link to="/day-14" className="text-blue-500 hover:underline">
-          Day 14 - test
+          Day 14 - Image search
         </Link>
       </div>
     </div>
