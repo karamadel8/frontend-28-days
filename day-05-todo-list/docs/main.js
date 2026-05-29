@@ -85,7 +85,7 @@ function addtask(text = todoInput.value, isdone = false) {
   savetask();
 }
 
-addBtn.addEventListener("click", addtask);
+addBtn.addEventListener("click", () => addtask());
 todoInput.addEventListener("keyup", (e) => {
   if (e.key === "Enter") addtask();
 });
