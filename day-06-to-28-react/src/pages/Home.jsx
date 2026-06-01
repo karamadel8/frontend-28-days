@@ -56,6 +56,11 @@ function Home() {
           Day 15 - Movie search
         </Link>
       </div>
+      <div>
+        <Link to="/day-16" className="text-blue-500 hover:underline">
+          Day 16 - Expenses Tracker
+        </Link>
+      </div>
     </div>
   );
 }

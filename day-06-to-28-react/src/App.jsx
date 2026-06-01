@@ -13,6 +13,7 @@ import Day14 from "./pages/Day14/Index";
 import Day15 from "./pages/Day15/Index";
 import Imagedetails from "./pages/Day14/ImageDetail";
 import MovieDetail from "./pages/Day15/MovieDetail";
+import Day16 from "./pages/Day16";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/day-14/:id" element={<Imagedetails />} />
       <Route path="/day-15" element={<Day15 />} />
       <Route path="/day-15/:id" element={<MovieDetail />} />
+      <Route path="/day-16" element={<Day16/>} />
     </Routes>
   );
 }

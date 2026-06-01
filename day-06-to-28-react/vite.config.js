@@ -5,4 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/frontend-28-days/day-06-to-28-react/docs/",
   plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    include: ["recharts"],
+  },
 });
