@@ -135,7 +135,13 @@ const PomodoroTimer = () => {
               }}
             >
               <div
-                className={`w-48 h-48  rounded-full flex items-center justify-center p-2 ${mode === "work" ? "bg-blue-900" : "bg-green-900"}`}
+                className={`w-48 h-48  rounded-full flex items-center justify-center p-2 ${
+                  mode === "work"
+                    ? "bg-blue-900"
+                    : mode === "shortBreak"
+                      ? "bg-green-900"
+                      : "bg-purple-900"
+                }`}
               >
                 <div className="text-center">
                   <p className="text-4xl font-bold text-white block tracking-widest">
