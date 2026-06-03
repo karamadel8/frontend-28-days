@@ -99,7 +99,7 @@ const PomodoroTimer = () => {
                 settimelef(work * 60);
                 settotalsec(work * 60);
               }}
-              className={`text-sm font-semibold px-3 py-1.5  rounded-2xl cursor-pointer ${mode === "work" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
+              className={`text-xs font-semibold px-3 py-1.5  rounded-full cursor-pointer ${mode === "work" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
             >
               🍅 Work
             </button>
@@ -109,7 +109,7 @@ const PomodoroTimer = () => {
                 settimelef(Sbreak * 60);
                 settotalsec(Sbreak * 60);
               }}
-              className={`text-sm font-semibold px-3 py-1.5  rounded-2xl cursor-pointer ${mode === "shortBreak" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
+              className={`text-xs font-semibold px-3 py-1.5  rounded-full cursor-pointer ${mode === "shortBreak" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
             >
               ☕ Short Break
             </button>
@@ -119,7 +119,7 @@ const PomodoroTimer = () => {
                 settimelef(Lbreak * 60);
                 settotalsec(Lbreak * 60);
               }}
-              className={`text-sm font-semibold px-3 py-1.5  rounded-2xl cursor-pointer ${mode === "longBreak" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
+              className={`text-xs font-semibold px-3 py-1.5  rounded-full cursor-pointer ${mode === "longBreak" ? "bg-gray-400/60 text-gray-100 " : "bg-gray-400/30 text-gray-300/80"}`}
             >
               🌴 Long Break
             </button>
