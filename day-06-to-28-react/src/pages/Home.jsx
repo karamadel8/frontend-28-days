@@ -61,6 +61,11 @@ function Home() {
           Day 16 - Expenses Tracker
         </Link>
       </div>
+      <div>
+        <Link to="/day-17" className="text-blue-500 hover:underline">
+          Day 17 - Pomodoro Timer
+        </Link>
+      </div>
     </div>
   );
 }
